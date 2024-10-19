@@ -26,9 +26,6 @@ const Navbar = () => {
             ))}
           </ul>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
-            <a href="#" className="py-2 px-3 border rounded-md">
-              Sign In
-            </a>
             <a
           href="https://wa.me/918150933624"
           target="_blank"
