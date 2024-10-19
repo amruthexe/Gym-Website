@@ -1,0 +1,31 @@
+/* src/custom-cursor.css */
+body {
+    cursor: none;  /* Hide the default white arrow cursor */
+  }
+  
+  /* Custom cursor styling */
+  .cursor {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease-in-out;
+    z-index: 1000;
+    mix-blend-mode: difference;
+  }
+  
+  /* Custom selection color */
+  ::selection {
+    background-color: orange;  /* Change the background color of selected text */
+    color: white;  /* Change the color of the text when selected */
+  }
+  
+  /* For Mozilla Firefox */
+  ::-moz-selection {
+    background-color: orange;  /* Change the background color of selected text */
+    color: white;  /* Change the color of the text when selected */
+  }
+  

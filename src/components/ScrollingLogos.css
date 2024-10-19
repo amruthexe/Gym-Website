@@ -1,0 +1,29 @@
+.scrolling-logos {
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #111010bf; /* Background color for contrast */
+    padding: 10px 0;
+  }
+  
+  .logo-slider {
+    display: flex;
+    width: 1000px;
+    animation: scroll 30s linear infinite;
+  }
+  
+  .logo-slider img {
+    width: 600px;
+    height: 100px;
+    margin-right: 20px; /* Grayscale effect for uniformity */
+    vertical-align: middle;
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
